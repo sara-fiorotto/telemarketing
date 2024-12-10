@@ -1,6 +1,5 @@
 # Análise Bancária
 
-Um simples resumo do uso/propósito do projeto.
 
 ## Descrição do projeto
 
