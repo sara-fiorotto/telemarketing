@@ -27,10 +27,11 @@ Pré-requisitos
 Bibliotecas Python
 Instale as dependências executando:
 
-bash
 
 Copiar código:
+
 pip install -r requirements.txt
+
 As principais bibliotecas utilizadas são:
 
 * streamlit==1.40.2
@@ -42,11 +43,15 @@ As principais bibliotecas utilizadas são:
 
 
 ### Executando o projeto:
+
 1- Clone o repositório e acesse o diretório do projeto.
+
 2- Instale as dependências.
+
 3- Inicie a aplicação com o comando:
-bash
+
 Copiar código:
+
 * streamlit run app_7.py
 * Acesse o painel no navegador pelo endereço indicado (geralmente http://localhost:8501).
 Este projeto é ideal para equipes de marketing que buscam explorar dados de forma intuitiva e tomar decisões baseadas em insights visuais.
