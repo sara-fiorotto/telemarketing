@@ -62,7 +62,7 @@ Este projeto é ideal para equipes de marketing que buscam explorar dados de for
 Nomes dos desenvolvedores do projeto e informação para entrar em contato.
 
 Sara Fiorotto
-[@sara_fiorotto]((https://www.linkedin.com/in/sara-fiorotto/))
+[@sara_fiorotto]([https://www.linkedin.com/in/sara-fiorotto/])
 
 
 
