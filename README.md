@@ -51,8 +51,9 @@ As principais bibliotecas utilizadas são:
 
 Copiar código:
 
-* streamlit run app_7.py
+streamlit run app_7.py
 * Acesse o painel no navegador pelo endereço indicado (geralmente http://localhost:8501).
+  
 Este projeto é ideal para equipes de marketing que buscam explorar dados de forma intuitiva e tomar decisões baseadas em insights visuais.
 
 
