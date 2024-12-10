@@ -28,6 +28,7 @@ Bibliotecas Python
 Instale as dependências executando:
 
 bash
+
 Copiar código:
 pip install -r requirements.txt
 As principais bibliotecas utilizadas são:
