@@ -1,10 +1,17 @@
-# Título do projeto
+# Análise Bancária
 
 Um simples resumo do uso/propósito do projeto.
 
 ## Descrição do projeto
 
-Um parágrafo aprofundando mais sobre o seu projeto e uma explicação geral do uso.
+Este projeto é um painel interativo desenvolvido em Python utilizando o framework Streamlit, com o objetivo de analisar dados de campanhas de telemarketing. Ele permite que os usuários:
+
+Carreguem arquivos de dados no formato .csv ou .xlsx.
+Apliquem filtros dinâmicos em diversas categorias como idade, profissão, estado civil, entre outros.
+Visualizem gráficos e tabelas que representam:
+Proporção dos resultados antes e após os filtros.
+Proporção de aceite (chamadas bem-sucedidas).
+Além disso, os dados filtrados podem ser exportados diretamente como arquivos Excel ou CSV, garantindo praticidade para análises futuras.
 
 ## Link para aplicação 
 https://telemarketing-vbi5.onrender.com/
@@ -13,46 +20,45 @@ https://telemarketing-vbi5.onrender.com/
 
 ### Dependencias
 
-* Descreve quaisquer prerequisitos, bibliotecas, versão do SO, etc., que é necessário para rodar o projeto.
-* exemplo. Windows 10...
+Sistema Operacional
+* Testado em Windows 10 e distribuições Linux (Ubuntu 20.04+).
+Pré-requisitos
+* Python 3.8 ou superior. Certifique-se de que o Python esteja instalado e configurado no PATH.
+Bibliotecas Python
+Instale as dependências executando:
 
-### Instalação
+bash
+Copiar código:
+pip install -r requirements.txt
+As principais bibliotecas utilizadas são:
 
-* Como/aonde fazer o download do seu projeto/programa
-* Quaisquer modificação necessária nos arquivos/diretórios
+* streamlit==1.40.2
+* XlsxWriter==3.2.0
+* seaborn==0.13.2
+* pandas==2.2.3
+* matplotlib==3.9.3
+* protobuf==3.20.1
 
-### Executando o projeto
 
-* Como rodar o projeto/programa
-* Passo a passo em tópicos (bullet points)
-```
-bloco de código para os comandos necessários
-```
+### Executando o projeto:
+1- Clone o repositório e acesse o diretório do projeto.
+2- Instale as dependências.
+3- Inicie a aplicação com o comando:
+bash
+Copiar código:
+* streamlit run app_7.py
+* Acesse o painel no navegador pelo endereço indicado (geralmente http://localhost:8501).
+Este projeto é ideal para equipes de marketing que buscam explorar dados de forma intuitiva e tomar decisões baseadas em insights visuais.
 
-## Ajuda
-
-Qualquer ponto importante de problemas ou erros comuns
-```
-comando para rodar se o programa tiver uma informação de ajuda
-```
 
 ## Autores
 
 Nomes dos desenvolvedores do projeto e informação para entrar em contato.
 
-ex. Lucas Serra  
-ex. [@LucasSerra](https://www.linkedin.com/in/lucasserra03/)
+Sara Fiorotto
+[@sara_fiorotto]((https://www.linkedin.com/in/sara-fiorotto/))
 
-## Histórico de versões.
 
-* 0.2
-	* Ajustes de diversos bugs e otimização
-* 0.1
-    * Primeira versão
-
-## Licença de uso
-
-Esse projeto possui licença de uso [NAME HERE] - acesse o arquivo LICENSE.md para mais detalhes.
 
 ## Fontes de inspiração
 
